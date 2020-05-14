@@ -1,0 +1,25 @@
+{
+  "name": "sophomore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "node-static": "^0.7.11"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ginhelly/sophomore-geotrainer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ginhelly/sophomore-geotrainer/issues"
+  },
+  "homepage": "https://github.com/ginhelly/sophomore-geotrainer#readme"
+}
