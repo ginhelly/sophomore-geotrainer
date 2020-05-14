@@ -1,0 +1,69 @@
+<!DOCTYPE html> 
+<html>
+ <head>
+   <title>GEO Trainer</title>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+   <link rel="stylesheet" type="text/css" href="assets/style.css">
+   <script type="text/javascript" src="assets/engine.js"></script>
+   <script type="text/javascript" src="maps/library.js"></script>
+   <script src="https://api-maps.yandex.ru/2.1/?apikey=0649a37c-cdb2-4cc2-a656-c4e26bbad903&lang=ru_RU" type="text/javascript"></script>
+ </head>
+ <body onload="initCheckboxes();">
+ <!--<img id="mappic" src="maps/asia.jpg">-->
+ <div id="map"></div>
+ 
+<!-- <img src="assets/menu.svg" height="30px" width="30px" id="m_icon" onclick=s_menu()>
+ <img src="assets/gear.svg" height="30px" width="30px" id="s_icon" onclick=t_settings()>-->
+ <div id="menu">
+ 
+ <div id="nav">
+ <p style="font:16pt Cambria"><img src="assets/icon.png" height="20px" width="20px"> GEO Trainer v.0.9y</p>
+ <img src="assets/line.svg"><br>
+ <!-- <ul> 
+ <li id="s_hd" class="section" onclick=toggleHard()> Не выделять уже отмеченное</li> 
+ <li id="s_hp" class="section" onclick=toggleHelp()> Показывать подсказки</li> 
+ <li id="s_sw" class="section" onclick=toggleSW()> ✓ Включить секундомер</li> 
+ </ul> -->
+ <label class="section" onclick=toggleHard()><input type="checkbox" id="s_hd"><span class="checkmark"></span> Не выделять уже отмеченное </label><br>
+ <label class="section" onclick=toggleHelp()><input type="checkbox" id="s_hp"><span class="checkmark"></span> Показывать подсказки </label><br>
+ <label class="section" onclick=toggleSW()><input type="checkbox" id="s_sw"><span id="s_swc" class="checkmark"></span> Включить секундомер </label><br><br>
+ Вы не знаете объект, если ошиблись:<br>
+ <select id="badsel" style="background-color: #37483e; color:white; border:none; padding:5px">
+ <option value="one" selected>Хотя бы один раз</option>
+ <option value="two" selected>2 и более раз</option>
+ <option value="three" selected>3 и более раз</option>
+ </select>
+ <p id="sw" style="text-align:center; font:18pt Arial"> 00:00.00 </p>
+ <br>
+ <img src="assets/line.svg">
+ <p id="task">Здесь появится задание</p>
+ <img src="assets/line.svg">
+ <div id="foot">УдГУ, 2019. Курсовая работа студента Караваева Н. </br>Научный руководитель: Рублёва Е. А.</div>
+ </div>
+ </div>
+ 
+ <!--<div id="set">
+ <div id="set_t">
+ <ul>
+ <li id="s_hd" class="section" onclick=toggleHard()> Не выделять уже отмеченное<br>
+ <li id="s_hp" class="section" onclick=toggleHelp()> Показывать подсказки</div></ul>
+ </div></div>-->
+ 
+ <div class="popup" id="upl">
+ <p>Выберите файл с компьютера:
+ <input id="iu" type="file" checked><br><br>
+ <label class="section"><input type="checkbox" id="invert"><span class="checkmark"></span> Поменять местами X и Y </label>
+ </p>
+ </div>
+ <div class="popup" id="rslt"></div>
+ <!--<div id="alertbox">
+ <div id="alerttext">
+ </div></div>*/-->
+ 
+ <script type="text/javascript">
+    ymaps.ready(init);
+ </script>
+
+ </body>
+</html>

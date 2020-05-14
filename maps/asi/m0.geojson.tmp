@@ -1,0 +1,28 @@
+{
+"type": "FeatureCollection",
+"metadata": { "name": "Азия", "creator": "Yandex Map Constructor", "description": "Острова" },
+"name": "m0",
+"features": [
+{ "type": "Feature", "id": 0, "properties": { "description": "Андаманские", "fill": "#ed4543", "fill-opacity": 0.6, "stroke": "#ed4543", "stroke-width": "5", "stroke-opacity": 0.9 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 92.877611124999632, 13.790839101624861 ], [ 92.262376749999618, 10.548738902142823 ], [ 93.888353312499618, 6.481135000871345 ], [ 93.932298624999646, 6.74479413675888 ], [ 92.679857218749646, 10.613957917584889 ], [ 93.229173624999618, 13.661953908141394 ], [ 92.877611124999632, 13.790839101624861 ] ] ] } },
+{ "type": "Feature", "id": 1, "properties": { "description": "Бахрейн", "fill": "#ed4543", "fill-opacity": 0.6, "stroke": "#ed4543", "stroke-width": "5", "stroke-opacity": 0.9 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 50.640672648437004, 26.331828631088431 ], [ 50.563768351562025, 26.24021990565608 ], [ 50.427812541015115, 26.224118933429583 ], [ 50.486864054686997, 26.048100263617346 ], [ 50.453905070312004, 25.959990511465815 ], [ 50.540422404296386, 25.859389449588932 ], [ 50.565141642577593, 25.794760383582719 ], [ 50.604967082030704, 25.848206202504379 ], [ 50.617326701171365, 25.989781563819946 ], [ 50.620073283202608, 26.036935120654185 ], [ 50.633806193358836, 26.118787861558658 ], [ 50.570634806640086, 26.19438814282881 ], [ 50.624193156249476, 26.217925651721171 ], [ 50.606340373046329, 26.241458348540345 ], [ 50.625566447265101, 26.251365412117522 ], [ 50.666765177733836, 26.185715216607775 ], [ 50.710710490233865, 26.209254497612935 ], [ 50.66951175976503, 26.248888726234092 ], [ 50.640672648437004, 26.331828631088431 ] ] ] } },
+{ "type": "Feature", "id": 2, "properties": { "description": "Рюкю", "fill": "#ed4543", "fill-opacity": 0.6, "stroke": "#ed4543", "stroke-width": "5", "stroke-opacity": 0.9 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 129.655003124999865, 28.701602023512315 ], [ 127.270969921874823, 26.063827903809614 ], [ 127.556614453124865, 25.875142604151709 ], [ 129.874729687499865, 28.45915858886482 ], [ 129.655003124999865, 28.701602023512315 ] ] ] } },
+{ "type": "Feature", "id": 3, "properties": { "description": "Калимантан", "marker-color": "#1e98ff" }, "geometry": { "type": "Point", "coordinates": [ 114.216467, 0.867899 ] } },
+{ "type": "Feature", "id": 4, "properties": { "description": "Сулавеси", "marker-color": "#1e98ff" }, "geometry": { "type": "Point", "coordinates": [ 120.410130999999311, -1.969061589262429 ] } },
+{ "type": "Feature", "id": 5, "properties": { "description": "Суматра", "marker-color": "#1e98ff" }, "geometry": { "type": "Point", "coordinates": [ 101.523416, -0.453763 ] } },
+{ "type": "Feature", "id": 6, "properties": { "description": "Ява", "marker-color": "#1e98ff" }, "geometry": { "type": "Point", "coordinates": [ 109.942517, -7.298903 ] } },
+{ "type": "Feature", "id": 7, "properties": { "description": "Бали", "marker-color": "#1e98ff" }, "geometry": { "type": "Point", "coordinates": [ 115.115241, -8.354985 ] } },
+{ "type": "Feature", "id": 8, "properties": { "description": "Кипр", "marker-color": "#1e98ff" }, "geometry": { "type": "Point", "coordinates": [ 33.149774, 35.128223 ] } },
+{ "type": "Feature", "id": 9, "properties": { "description": "Мальдивы", "marker-color": "#1e98ff" }, "geometry": { "type": "Point", "coordinates": [ 73.541641, 4.214899 ] } },
+{ "type": "Feature", "id": 10, "properties": { "description": "Лаккадивские", "marker-color": "#1e98ff" }, "geometry": { "type": "Point", "coordinates": [ 72.549712323282051, 10.799042322497026 ] } },
+{ "type": "Feature", "id": 11, "properties": { "description": "Тайвань", "marker-color": "#1e98ff" }, "geometry": { "type": "Point", "coordinates": [ 120.969696, 23.750939 ] } },
+{ "type": "Feature", "id": 12, "properties": { "description": "Филиппины", "marker-color": "#1e98ff" }, "geometry": { "type": "Point", "coordinates": [ 122.976578, 11.379411 ] } },
+{ "type": "Feature", "id": 13, "properties": { "description": "Хайнань", "marker-color": "#1e98ff" }, "geometry": { "type": "Point", "coordinates": [ 109.747331, 19.19711 ] } },
+{ "type": "Feature", "id": 14, "properties": { "description": "Цусима", "marker-color": "#1e98ff" }, "geometry": { "type": "Point", "coordinates": [ 129.247762, 34.216484 ] } },
+{ "type": "Feature", "id": 15, "properties": { "description": "Чагос", "marker-color": "#1e98ff" }, "geometry": { "type": "Point", "coordinates": [ 71.545108, -6.174168 ] } },
+{ "type": "Feature", "id": 16, "properties": { "description": "Хоккайдо", "marker-color": "#1e98ff" }, "geometry": { "type": "Point", "coordinates": [ 142.574925, 43.382597 ] } },
+{ "type": "Feature", "id": 17, "properties": { "description": "Хонсю", "marker-color": "#1e98ff" }, "geometry": { "type": "Point", "coordinates": [ 138.593021374999665, 36.336267708190931 ] } },
+{ "type": "Feature", "id": 18, "properties": { "description": "Сикоку", "marker-color": "#1e98ff" }, "geometry": { "type": "Point", "coordinates": [ 133.468253, 33.663326 ] } },
+{ "type": "Feature", "id": 19, "properties": { "description": "Кюсю", "marker-color": "#1e98ff" }, "geometry": { "type": "Point", "coordinates": [ 130.872032, 32.650621 ] } },
+{ "type": "Feature", "id": 20, "properties": { "description": "Шри-Ланка", "marker-color": "#1e98ff" }, "geometry": { "type": "Point", "coordinates": [ 80.705076, 7.613357 ] } }
+]
+}
